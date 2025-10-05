@@ -1,0 +1,78 @@
+{
+    "system_info": {
+        "note": "Using pipelines sequentially on GPU. For efficiency, use a dataset.",
+        "mode": "TESTING RAG SYSTEM - MULTIPLE QUERIES"
+    },
+    "tests": {
+        "Test_Query_1": {
+            "query": "Was Abraham Lincoln the sixteenth President of the United States?",
+            "question": "Was Abraham Lincoln the sixteenth President of the United States?",
+            "query_variations": [
+                "Was Abraham Lincoln the sixteenth President of the United States?",
+                "Abraham Lincoln was the sixteenth president of the United States."
+            ],
+            "retrieved_candidates": 35,
+            "reranked_top": 5,
+            "context_chars": 1936,
+            "context_chunks": 4,
+            "answer": "Abraham Lincoln (February 12, 1809 \u2013 April 15, 1865) was the sixteenth President of the United States, serving from March 4, 1861 until his assassination.",
+            "sources": [
+                {
+                    "Rank": 1,
+                    "Chunk_ID": "278-0",
+                    "Relevance": 10.3089
+                },
+                {
+                    "Rank": 2,
+                    "Chunk_ID": "319-0",
+                    "Relevance": 8.122
+                },
+                {
+                    "Rank": 3,
+                    "Chunk_ID": "198-0",
+                    "Relevance": -0.4495
+                },
+                {
+                    "Rank": 4,
+                    "Chunk_ID": "383-0",
+                    "Relevance": -0.7348
+                }
+            ]
+        },
+        "Test_Query_2": {
+            "query": "Did Lincoln sign the National Banking Act of 1863?",
+            "question": "Did Lincoln sign the National Banking Act of 1863?",
+            "query_variations": [
+                "Did Lincoln sign the National Banking Act of 1863?"
+            ],
+            "retrieved_candidates": 30,
+            "reranked_top": 5,
+            "context_chars": 2009,
+            "context_chunks": 4,
+            "answer": "Yes.",
+            "sources": [
+                {
+                    "Rank": 1,
+                    "Chunk_ID": "360-1",
+                    "Relevance": 4.8125
+                },
+                {
+                    "Rank": 2,
+                    "Chunk_ID": "360-0",
+                    "Relevance": 2.1481
+                },
+                {
+                    "Rank": 3,
+                    "Chunk_ID": "330-0",
+                    "Relevance": -1.6246
+                },
+                {
+                    "Rank": 4,
+                    "Chunk_ID": "352-1",
+                    "Relevance": -2.1655
+                }
+            ]
+        }
+    },
+    "status": "ALL TESTS COMPLETED"
+}

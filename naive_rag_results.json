@@ -1,0 +1,31 @@
+{
+    "evaluations": {
+        "chain_of_thought": {
+            "samples": 100,
+            "started_at": "02:35:45",
+            "completed_at": "02:36:40",
+            "metrics": {
+                "exact_match": 8.0,
+                "f1": 12.332352903527536
+            }
+        },
+        "persona": {
+            "samples": 100,
+            "started_at": "02:36:40",
+            "completed_at": "02:37:06",
+            "metrics": {
+                "exact_match": 28.0,
+                "f1": 31.380048266706773
+            }
+        },
+        "instruction": {
+            "samples": 100,
+            "started_at": "02:37:06",
+            "completed_at": "02:37:30",
+            "metrics": {
+                "exact_match": 23.0,
+                "f1": 26.121037102432453
+            }
+        }
+    }
+}

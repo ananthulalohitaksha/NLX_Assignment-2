@@ -1,0 +1,11 @@
+embedding_model,embedding_dim,top_k,selection_strategy,exact_match,f1_score
+MPNet-512D,512,5,concatenate,34.66666667,42.29477948
+MPNet-512D,512,5,mmr,34.66666667,41.40945446
+MiniLM-384D,384,5,concatenate,32,39.97423913
+MPNet-512D,512,3,mmr,32.66666667,38.79982396
+MiniLM-384D,384,10,concatenate,32,38.60581605
+MPNet-512D,512,3,concatenate,31.33333333,38.57661645
+MiniLM-384D,384,3,mmr,31.33333333,37.46480749
+MPNet-512D,512,10,concatenate,30,36.65321866
+MiniLM-384D,384,3,concatenate,30,36.54167163
+MiniLM-384D,384,5,mmr,30,36.25094585
